@@ -19,7 +19,7 @@ import fr.adriendebreuillydev.plantscollection.PlantRepository.Singleton.downloa
 import fr.adriendebreuillydev.plantscollection.R
 import java.util.*
 
-class AddPlantFragent(
+class AddPlantFragment(
 
     private val context: MainActivity
 

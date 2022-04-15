@@ -5,7 +5,7 @@ import android.os.Bundle
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
-import fr.adriendebreuillydev.plantscollection.fragments.AddPlantFragent
+import fr.adriendebreuillydev.plantscollection.fragments.AddPlantFragment
 import fr.adriendebreuillydev.plantscollection.fragments.CollectionFragment
 import fr.adriendebreuillydev.plantscollection.fragments.HomeFragment
 
@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
                     return@setOnNavigationItemSelectedListener true
                 }
                 R.id.add_plant_page -> {
-                    loadFragment(AddPlantFragent(this), R.string.add_plant_page_title)
+                    loadFragment(AddPlantFragment(this), R.string.add_plant_page_title)
                     return@setOnNavigationItemSelectedListener true
                 }
                 else -> false
