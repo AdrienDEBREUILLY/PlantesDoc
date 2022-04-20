@@ -7,7 +7,7 @@
 
     <!-- Page d'Acceuil -->
     <string name="home_page_title">A découvrir</string>
-    <string name="home_page_last_plant_section">Dernières palntes</string>
+    <string name="home_page_last_plant_section">Dernières plantes</string>
 
     <!-- Page de Collection -->
     <string name="collection_page_title">Ma Collection</string>
