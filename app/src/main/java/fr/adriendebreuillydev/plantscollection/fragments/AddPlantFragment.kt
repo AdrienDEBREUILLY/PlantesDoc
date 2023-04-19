@@ -57,6 +57,7 @@ class AddPlantFragment(
             val plantDescription = view.findViewById<EditText>(R.id.description_input).text.toString()
             val grow = view.findViewById<Spinner>(R.id.grow_spinner).selectedItem.toString()
             val water = view.findViewById<Spinner>(R.id.water_spinner).selectedItem.toString()
+            /*val categories = view.findViewById<Spinner>(R.id.categories_spinner).selectedItem.toString()*/
             val downloadImageUrl = downloadUri
 
             //creer un nouvel objet PlantModel
@@ -66,7 +67,8 @@ class AddPlantFragment(
                 plantDescription,
                 downloadImageUrl.toString(),
                 grow,
-                water
+                water,
+                /*categories*/
             )
             //envoyer en bdd
             repo.inserPlant(plant)

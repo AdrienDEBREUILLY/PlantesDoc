@@ -7,5 +7,6 @@ class PlantModel(
     val imageUrl: String = "https://graven.yt/plente.jpg",
     val grow: String = "Faible",
     val water: String = "Moyenne",
+    /* val categories: String = "A",*/
     var liked: Boolean = false
 )

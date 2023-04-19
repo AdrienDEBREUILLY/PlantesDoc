@@ -82,6 +82,10 @@ class PlantPopup(
 
         // actualiser la consomation d'eau de la plante
         findViewById<TextView>(R.id.popup_plant_water_sub_title).text = currentPlant.water
+        /*
+        // actualiser la categories de la plantes
+        findViewById<TextView>(R.id.popup_plant_categories_sub_title).text = currentPlant.categories
+        */
     }
 
 }

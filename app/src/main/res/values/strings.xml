@@ -27,6 +27,13 @@
         <item>Consommation : Moyenne</item>
         <item>Consommation : Elevee</item>
     </string-array>
+    <!--
+    <string-array name="add_plant_page_categories_spinner_input">
+        <item>categories : A</item>
+        <item>categories : B</item>
+        <item>categories : C</item>
+    </string-array>
+    -->
     <string name="add_plant_page_confirme_button">Confirmer</string>
 
     <!-- Fenêtre Popup de d'étails -->
@@ -37,6 +44,8 @@
     <string name="popup_plant_grow_sub_title">Lente</string>
     <string name="popup_plant_water_title">Consommation d\'Eau</string>
     <string name="popup_plant_water_sub_title">faible</string>
+    <!--<string name="popup_plant_categories_title">Categories</string>
+    <string name="popup_plant_categories_sub_title">A</string>-->
 
     <!-- Page Customise -->
     <string name="item_plant_name">Nome de la plante</string>
